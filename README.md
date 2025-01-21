@@ -12,5 +12,12 @@ python wordz.py myfile.txt [word]
 Run smoke tests
 
 ```bash
+cd tests
 bash test.sh
+```
+
+Run unit tests
+
+```bash
+pytest tests/test_wordz.py
 ```
