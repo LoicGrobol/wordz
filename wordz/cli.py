@@ -7,7 +7,7 @@ from wordz.libwordz import compte_mots
 @click.argument("inpt")
 @click.argument("word", required=False)
 @click.option(
-    "-n", default=16, help="How many words to display", show_default=True, type=int
+    "-n", default=32, help="How many words to display", show_default=True, type=int
 )
 def main(inpt: str, n: int, word: str | None):
     with open(inpt) as in_stream:
