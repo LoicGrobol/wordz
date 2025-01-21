@@ -1,4 +1,4 @@
 echo "# TEST 1"
-python wordz.py local/raw.txt
+python src/wordz.py local/raw.txt
 echo "# TEST 2"
-python wordz.py local/raw.txt ton
+python src/wordz.py local/raw.txt ton
