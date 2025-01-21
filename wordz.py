@@ -6,7 +6,7 @@ from typing import Iterable
 import regex
 
 
-TOKEN_PATTERN = regex.compile("(?u)\\b\\w\\w+\\b")
+TOKEN_PATTERN = regex.compile(r"(?u)\b\w\w+\b")
 
 
 def compte_mots(texte: Iterable[str]) -> Counter[str]:
